@@ -1,1 +1,1 @@
-#Ajax navigation in action
+#Old School Ajax navigation in action
