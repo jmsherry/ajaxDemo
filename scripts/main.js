@@ -1,5 +1,10 @@
 $(function(){
+
+
+
+
   $('nav a').on('click.navigate', function(){
+
     var url = $(this).attr('href');
 
     $.ajax({
@@ -8,6 +13,20 @@ $(function(){
       $('main').html(response);
     });
 
+
+
     return false;
+
   });
+
+
+
 });
+
+
+// $('body').on('click.jimDelegated', '#delegated .triggerLink', function(e) {
+//     console.log(arguments);
+//     alert('BOOYAH (delegated event)!!');
+//     return false; // See below
+//
+//   });

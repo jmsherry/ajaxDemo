@@ -1,32 +1,12 @@
-header {
-  background-color: red;
-  border: 1px solid #000;
-  border-radius: 15px;
-  overflow: hidden;
-  padding: 15px;
+h1 {
+  margin: 0;
+}
+
+header h1 {
+    font-size: 3.5rem;
 }
 
 main {
-  border: 1px solid #000;
-  border-radius: 15px;
   min-height: 200px;
   padding: 15px;
-}
-
-nav li{
-  float: left;
-  list-style: none;
-}
-
-nav li a {
-  display: block;
-  padding: 15px;
-  color: #000;
-}
-
-footer {
-  background-color: blue;
-  border: 1px solid #000;
-  border-radius: 15px;
-    padding: 15px;
 }
